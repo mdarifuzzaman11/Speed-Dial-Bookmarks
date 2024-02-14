@@ -1,0 +1,51 @@
+{
+    "manifest_version": 3,
+    "name": "Speed Dial Bookmark",
+    "version": "1.0",
+    "description": "Manage and open bookmark folders with keyboard shortcuts.",
+    "permissions": ["bookmarks", "tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "commands": {
+      "open-folder-1": {
+        "description": "Open the 1st bookmark folder"
+      },
+      "open-folder-2": {
+        "description": "Open the 2nd bookmark folder"
+      },
+      "open-folder-3": {
+        "description": "Open the 3rd bookmark folder"
+      },
+      "open-folder-4": {
+        "description": "Open the 4th bookmark folder"
+      },
+      "open-folder-5": {
+        "description": "Open the 5th bookmark folder"
+      },
+      "open-folder-6": {
+        "description": "Open the 6th bookmark folder"
+      },
+      "open-folder-7": {
+        "description": "Open the 7th bookmark folder"
+      },
+      "open-folder-8": {
+        "description": "Open the 8th bookmark folder"
+      },
+      "open-folder-9": {
+        "description": "Open the 9th bookmark folder"
+      },
+      "close-tabs": {
+        "description": "Close all tabs except the current one"
+      }
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+  
